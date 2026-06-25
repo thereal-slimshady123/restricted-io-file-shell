@@ -72,15 +72,3 @@ FIRST 1
 Enter command (INPUT, PRINT, FIRST n, LAST n, LOG n, STOP): STOP
 ```
 
----
-
-## 📄 Resume Bullet Points (Tailored for SWE / Systems Roles)
-
-Here are three high-impact ways you can describe this project on your resume:
-
-*   **Unix Systems Programming & Descriptor Manipulation**:
-    > "Designed and developed a sandboxed C-based file management CLI shell implementing dynamic descriptor manipulation via `dup`/`dup2` system calls to simulate file reads and writes under strict I/O resource restrictions (zero direct `read`/`write` calls)."
-*   **Memory Optimization & Custom Buffering**:
-    > "Engineered an optimized $O(n)$ space-complexity circular buffer in C to support sliding window log retrieval (`LAST n`/`LOG n` commands), avoiding standard 2D static arrays and reducing memory overhead during file stream traversal."
-*   **Sandboxing & Process Control**:
-    > "Implemented process-level workspace isolation by dynamically parsing runtime process headers (`getpid`), sandboxing each concurrent execution instance inside custom-scoped namespaces (`folder_<PID>`) via file-system directory hooks (`mkdir`, `chdir`)."
